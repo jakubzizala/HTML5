@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main .basketbal p {
+    font-size: 24px;
+    text-decoration: underline;
+    color: yellow;
+}
+
+main .basketbal div span h3 {
+    font-size: 48px;
+    color: yellow;
+    text-decoration: line-through;
+}
+
+
+body {
+    background-color: red;
+    font-family: "Times New Roman", Serif;
+}
+
+.center {
+    text-align: center;
+}
+
+#white {
+    color: white;
+}
+
+.aqua {
+    color: aqua;
+}
+
+tbody {
+    color: blue;
+}
+
+tfoot {
+    color: white;
+}
+
+thead {
+    color: orange;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+main {
+    padding: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.sign-in {
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    color: white;
+    padding: 5px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+}

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e82a719f-b822-4ac3-89fe-db824ed4a5ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="e82a719f-b822-4ac3-89fe-db824ed4a5ca" name="Default Changelist" comment="Commit pravý">
+      <change afterPath="$PROJECT_DIR$/CSS/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +16,19 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zd1plvvgvL8Rre6HRe3wIIEQws" />
@@ -28,7 +41,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Stažené soubory/index.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sprit\PhpstormProjects\HTML5" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,7 +59,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585154341478</updated>
-      <workItem from="1585154342785" duration="786000" />
+      <workItem from="1585154342785" duration="1015000" />
+      <workItem from="1585155619723" duration="1806000" />
+      <workItem from="1585158468562" duration="545000" />
+      <workItem from="1585169884614" duration="2580000" />
+      <workItem from="1585652582575" duration="1561000" />
     </task>
     <task id="LOCAL-00001" summary="Commit php">
       <created>1585154471780</created>
@@ -56,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585154994728</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit php">
+      <created>1585155138838</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585155138838</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit pravý">
+      <created>1585171821566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585171821566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,16 +101,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit php" />
+    <MESSAGE value="Commit pravý" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit pravý" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="598" y="120" key="CommitChangelistDialog2" timestamp="1585154993327">
+    <state x="552" y="181" key="#Inspections" timestamp="1585170560415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585154993327" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1585155004046">
+    <state x="552" y="181" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1585170560415" />
+    <state x="598" y="120" key="CommitChangelistDialog2" timestamp="1585172214935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585155004046" />
+    <state x="598" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585172214935" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1585172034663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585172034663" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1585171861320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585171861320" />
+    <state x="672" y="237" key="MultipleFileMergeDialog" timestamp="1585654123588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="237" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585654123588" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1585171830696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585171830696" />
+    <state x="667" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1585155623185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585155623185" />
+    <state x="741" y="236" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585654111382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="236" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585654111382" />
   </component>
 </project>
