@@ -1,4 +1,10 @@
 <?PHP
+require 'tracy/tracy.phar';
+use Tracy\Debugger;
+Debugger::enable();
+Debugger::$strictMode = true;
+
+
 $a = 2;
 $b = 2;
 
@@ -6,58 +12,58 @@ $b = 2;
 //aritmeticke operatory
 
 echo "<br> Sčítání";
-var_dump($a + $b);
+dump($a + $b);
 echo "<br>";
 
 echo "<br> Odčítání";
-var_dump($a - $b);
+dump($a - $b);
 echo "<br>";
 
 echo "<br> Dělení";
-var_dump($a / $b);
+dump($a / $b);
 echo "<br>";
 
 echo "<br> Násobení";
-var_dump($a * $b);
+dump($a * $b);
 echo "<br>";
 
 //prirovnavaci operatory
 
 echo "<br>";
-var_dump($a++);
+dump($a++);
 
 echo "<br>";
-var_dump($a--);
+dump($a--);
 
 echo "<br>";
-var_dump($a += $b);
+dump($a += $b);
 
 echo "<br>";
-var_dump($a -= $b);
+dump($a -= $b);
 
 echo "<br>";
-var_dump($a *= $b);
+dump($a *= $b);
 
 echo "<br>";
-var_dump($a /= $b);
+dump($a /= $b);
 
 //provnavaci operatory
 
 echo "<br> Rovná se";
 echo "<br>";
-var_dump($a == $b);
+dump($a == $b);
 
 echo "<br> Má jinou hodnotu";
 echo "<br>";
-var_dump($a != $b);
+dump($a != $b);
 
 echo "<br> A je větší než B";
 echo "<br>";
-var_dump($a > $b);
+dump($a > $b);
 
 echo "<br> B je větší než A";
 echo "<br>";
-var_dump($a < $b);
+dump($a < $b);
 
 echo"<br>";
 
@@ -110,7 +116,7 @@ switch ($jakubZizala1) {
 }
 echo "<br>";
 $hraci = array(1 =>"Jordan", 2=>"James", 3=>"Harden", 4=>"Kareem", 5=>"Worthy", 6=>"Embiid", 7=>"Thybulle", 8=>"Bol", 9=>"Lillard", 10=>"Davis");
-var_dump($hraci);
+dump($hraci);
 echo "<br>";
 $nba = array(
     "prvni" => array(
@@ -171,7 +177,7 @@ $nba = array(
         )
     )
 );
-var_dump($nba['prvni']);
+dump($nba['prvni']);
 echo "<br>";
 
 ?>
