@@ -4,11 +4,15 @@ use Tracy\Debugger;
 Debugger::enable();
 Debugger::$strictMode = true;
 
+$zapnuto=false;
+$jmeno="jakub";
+$cena=15.9;
+$cislo=2;
+echo "<img src=\"NBA.jpg\" title='NBA basket' alt='NBA'/>";
+echo "<br>\<br>";
 
 $a = 2;
 $b = 2;
-
-
 //aritmeticke operatory
 
 echo "<br> Sčítání";
