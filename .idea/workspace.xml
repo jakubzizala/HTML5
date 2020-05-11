@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e82a719f-b822-4ac3-89fe-db824ed4a5ca" name="Default Changelist" comment="Commit php">
-      <change afterPath="$PROJECT_DIR$/Tracy/tracy.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -50,6 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -72,6 +73,13 @@
       <workItem from="1587982391357" duration="268000" />
       <workItem from="1588004845575" duration="189000" />
       <workItem from="1588005056391" duration="7000" />
+      <workItem from="1588005079916" duration="42000" />
+      <workItem from="1588237651757" duration="3010000" />
+      <workItem from="1589018211862" duration="58000" />
+      <workItem from="1589018321536" duration="1846000" />
+      <workItem from="1589132383965" duration="1518000" />
+      <workItem from="1589208244065" duration="86000" />
+      <workItem from="1589210227075" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="Commit php">
       <created>1585154471780</created>
@@ -101,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587982474496</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit php">
+      <created>1588005100769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588005100769</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,13 +139,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commit php" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="667" y="163" key="#PHP" timestamp="1588239800846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1588239800846" />
     <state x="598" y="120" key="CommitChangelistDialog2" timestamp="1585154993327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585154993327" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1587982486001">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588005111236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587982486001" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588005111236" />
   </component>
 </project>

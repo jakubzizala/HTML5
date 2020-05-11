@@ -4,11 +4,15 @@ use Tracy\Debugger;
 Debugger::enable();
 Debugger::$strictMode = true;
 
+$zapnuto=false;
+$jmeno="jakub";
+$cena=15.9;
+$cislo=2;
+echo "<img src=\"img/NBA.png\" title='NBA basket' alt='NBA'/>";
+echo "<br>\<br>";
 
 $a = 2;
 $b = 2;
-
-
 //aritmeticke operatory
 
 echo "<br> Sčítání";
@@ -180,5 +184,57 @@ $nba = array(
 dump($nba['prvni']);
 echo "<br>";
 
-?>
 
+
+
+echo (max(51,87,9,31));
+echo "<br>";
+$retezec= "Jmenuji se Jakub Zizala.";
+print_r (explode(" ",$retezec));
+echo "<br>";
+$NBA=array("Lakers","Bulls","76ers");
+echo "Moje oblíbené týmy v NBA jsou " . $NBA[0] . ", " . $NBA[1] . " a " . $NBA[2] . ".";
+echo "<br>";
+
+$radekJakubZizala=5;
+$sloupecJakubzizala=16;
+echo"<table border=\"1\">";
+for($i=1;$i<=$radekJakubZizala;$i++){
+echo"<tr>";
+for($j=1;$j<=$sloupecJakubzizala;$j++){
+echo"<td>".$i."-".$j."</td>";
+}
+echo"</tr>";}
+echo"</table>";
+echo "<br>";
+
+$pole = array('jahoda','jablko','třešně');
+
+foreach ($pole as $key => $value){
+    echo $value."<br>";
+}
+echo "<br>";
+
+    /**
+     * @todo Validuje zakazana slova
+     * @param array $param1 slova
+     * @param string $param2 Retezec pro kontrolu
+     * @return boolean
+     */
+function isvalid(array$param1, string$param2) {
+
+    foreach ($param1 as $value) {
+
+        if (strpos($param2, $value)) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+$slova = array("odporný","fortnite");
+$veta = "Všichni hrají fortnite.";
+
+var_dump(isvalid($slova, $veta));
+?>
