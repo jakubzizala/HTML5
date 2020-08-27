@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e82a719f-b822-4ac3-89fe-db824ed4a5ca" name="Default Changelist" comment="Commit php">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,12 @@
       <workItem from="1589018321536" duration="1846000" />
       <workItem from="1589132383965" duration="1518000" />
       <workItem from="1589208244065" duration="86000" />
-      <workItem from="1589210227075" duration="857000" />
+      <workItem from="1589210227075" duration="1132000" />
+      <workItem from="1589303761750" duration="22000" />
+      <workItem from="1589834545594" duration="7000" />
+      <workItem from="1598346893216" duration="93000" />
+      <workItem from="1598347042724" duration="6000" />
+      <workItem from="1598538594895" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="Commit php">
       <created>1585154471780</created>
@@ -116,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588005100769</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit php">
+      <created>1589211164913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589211164913</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,17 +149,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commit php" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="667" y="163" key="#PHP" timestamp="1588239800846">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598538630272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1588239800846" />
-    <state x="598" y="120" key="CommitChangelistDialog2" timestamp="1585154993327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="598" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585154993327" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1588005111236">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588005111236" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598538630272" />
   </component>
 </project>
